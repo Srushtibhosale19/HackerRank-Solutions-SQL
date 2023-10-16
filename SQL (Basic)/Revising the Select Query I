@@ -2,10 +2,16 @@ Query all columns for all American cities in the CITY table with populations lar
 
 The CITY table is described as follows:
 
-<picture>
-  <img alt="YOUR-ALT-TEXT" src="https://s3.amazonaws.com/hr-challenge-images/8137/1449729804-f21d187d0f-CITY.jpg">
-</picture>
 
++-------------+--------------+
+| Field       | Type         |
++-------------+--------------+
+| ID          | NUMBER       |
+| Name        | VARCHAR2(17) |
+| CountryCode | VARCHAR2(3)  |
+| District    | VARCHAR2(20) |
+| Population  | int(11)      |
++-------------+---------------+
 
 
 Solution:
