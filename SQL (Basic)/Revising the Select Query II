@@ -3,12 +3,15 @@ Query the NAME field for all American cities in the CITY table with populations 
 
 The CITY table is described as follows:
 
-
-
-
-
-
-
++-------------+--------------+
+| Field       | Type         |
++-------------+--------------+
+| ID          | NUMBER       |
+| Name        | VARCHAR2(17) |
+| CountryCode | VARCHAR2(3)  |
+| District    | VARCHAR2(20) |
+| Population  | NUMBER       |
++-------------+---------------+
 
 
 Solution:
