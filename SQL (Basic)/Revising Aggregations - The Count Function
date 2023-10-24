@@ -1,0 +1,19 @@
+Query a count of the number of cities in CITY having a Population larger than 100,000 .
+
+Input Format
+
+The CITY table is described as follows
++-------------+--------------+
+| Field       | Type         |
++-------------+--------------+
+| ID          | NUMBER       |
+| Name        | VARCHAR2(17) |
+| CountryCode | VARCHAR2(3)  |
+| District    | VARCHAR2(20) |
+| Population  | NUMBER       |
++-------------+---------------+
+
+Solution:
+SELECT COUNT(NAME)
+FROM CITY 
+WHERE POPULATION >100000;
